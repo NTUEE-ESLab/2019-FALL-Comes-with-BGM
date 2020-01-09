@@ -33,7 +33,7 @@ $ python3 merge.py
 ```
 ### 5. Methods
 
-![1578570843427](C:\Users\joey\AppData\Roaming\Typora\typora-user-images\1578570843427.png)
+![1578570843427](https://i.imgur.com/reiBWD9.png)
 
   Our system aims to develop a smart audio player with capability of detecting which room the user is in and playing songs in that room. In our demo, we show that we can control the Bluetooth speaker remotely from the laptop and when the user leaves the room (the ble connection breaks up), the player will stop the music.
   There are five components in our components, **web app, system controller, bluetooth speaker, ble scanner, smartphone.** 
