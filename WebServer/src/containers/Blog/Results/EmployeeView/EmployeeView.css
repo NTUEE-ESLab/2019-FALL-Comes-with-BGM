@@ -1,0 +1,61 @@
+.nowplaying {
+	margin-left: 20%;
+	margin-top: 30px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+}
+
+.Song_title {
+	font-size: 30px;
+}
+
+#image {
+    height: 300px;
+    width: auto;
+}
+
+.toolbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.play-music-button {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-bottom: 25px;
+	display: flex;
+  	justify-content: center;
+  	line-height: 1;
+  	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.play-music-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.volume-button {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-bottom: 25px;
+	display: flex;
+  	justify-content: center;
+  	line-height: 1;
+  	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.volume-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.volume-icon {
+	margin-top: auto;
+	margin-bottom: auto;
+}

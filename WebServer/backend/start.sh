@@ -1,0 +1,1 @@
+FLASK_APP=app.py FLASK_DEBUG=1 python -m flask run --port 8787 --host 192.168.43.113

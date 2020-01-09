@@ -1,0 +1,54 @@
+.RequestList {
+    margin-top: 2%;
+}
+
+.Review_List {
+    height: 100%;
+}
+
+
+
+.tabItem {
+    font-family: Poppins, Noto Sans TC;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+    border: none;
+}
+
+.tabSelectItem {
+    font-family: Poppins, Noto Sans TC;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2f80ed;
+    border: none;
+}
+
+.lefttab {
+    margin-right: 65px;
+}
+
+.NavBar {
+    max-width: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.underlineparent {
+    margin-top: 8px;
+    display: flex;
+    max-width: 50%;
+}
+
+.barunderline {
+    border-bottom: solid #2f80ed 2px;
+}

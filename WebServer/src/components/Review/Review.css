@@ -1,0 +1,32 @@
+.poll_review {
+	text-align: left;
+	max-width: 700px;
+	overflow-y: auto;
+}
+
+.Feedback_from {
+	margin-top: 15px;
+	color: #828282;
+}
+
+.part_num {
+	margin-top: 30px;
+	color: #828282;
+}
+
+.question_text {
+	color: #4f4f4f;
+	margin-top: 10px;
+}
+
+.digit_text {
+	margin-top: 5px;
+	color: #2f80ed;
+	font-weight: 600;
+}
+
+.answer_text {
+	color: #333333;
+	font-weight: 600;
+	display: inline-block;
+}

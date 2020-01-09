@@ -1,0 +1,280 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.topDiv {
+    border-bottom: solid #d1d1d1 0.5px;
+    height: 15%;
+    position: relative; 
+}
+
+.downDiv {
+    height: 90%;
+}
+
+#performance360 {
+    font-family: 'IBM Plex Mono', Noto Sans TC, monospace;
+    color: #333333;
+    font-weight: 550;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 1.5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#userinfo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 100px;
+    margin-left: auto;
+}
+
+.usermenu {
+    color: black;
+    background-color: white;
+    border: 0 none;
+    outline: none !important;
+}
+
+.usermenu:active, .usermenu:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.userimg {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.LanguageButton {
+    background-color: #ffffff;
+    color: #828282;
+    font-family: Poppins, Noto Sans TC;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: auto;
+    border: 0 none;
+    outline: none;
+}
+
+.LanguageButton:hover {
+    background-color: #ffffff;
+    opacity: 1;
+    font-weight: 550;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.LanguageButton:active,
+.LanguageButton:focus { 
+    background-color: #ffffff;
+    opacity: 1;
+    font-weight: 550;
+    color: #000000;
+    text-decoration: underline;
+    outline: none;
+}
+
+.langfocus {
+    background-color: #ffffff;
+    opacity: 1;
+    font-weight: 550;
+    color: #000000;
+    text-decoration: underline;
+    outline: none;
+}
+
+.leftb {
+    padding-right: 5px;
+}
+
+.rightb {
+    padding-left: 5px; 
+}
+.vline {
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 0 none;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #828282;
+}
+
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.downBar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.leftdownDiv {
+    width: 17%;
+    border: 0 none;
+    height: 100%;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 3%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Poppins, Noto Sans TC, sans-serif;
+}
+
+.rightdownDiv {
+    width: 85%;
+    height: 100%;
+    padding-left: 10%;
+    padding-top: 1.5%;
+}
+
+.ListItem {
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: lighter;
+    font-size: 14px;
+    padding-left: 25px;
+    max-width: 250px;
+    position: relative;
+}
+
+.ListItemSelect {
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 25px;
+    border-radius: 100px;
+    background-color: none;
+    max-width: 250px;
+    z-index: 1;
+    position: relative;
+}
+
+.ListsubItem {
+    font-size: 14px;
+}
+
+.ReviewList {
+    height: 100%;
+}
+
+.list_icon {
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.result_icon {
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.numcount {
+    margin-left: 14px;
+    border-radius: 42px;
+    background-color: #2f80ed;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 33px;
+    height: 21px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 14px;
+}
+
+.downcirclebar {
+    height: 44px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 25px;
+    border-radius: 100px;
+    background-color: #f0f6ff;
+    width: 225px;
+    z-index: 0;
+}
+
+.modal-content {
+    border: 0 none;
+}
+
+.Log_Out {
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    opacity: 0.9;
+}
+
+.logout_title {
+    border: 0 none;
+    font-family: Poppins, Noto Sans TC;
+}
+
+.logout_btn {
+    border: 0 none;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins, Noto Sans TC;
+}
+
+.logout_msg {
+    margin-bottom: 10px;
+    font-family: Poppins, Noto Sans TC;
+}
+
+.logout_button_modal {
+    width: 300px;
+    height: 51px;
+    margin-bottom: 20px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.cancel_button_modal {
+    width: 300px;
+    height: 51px;
+    margin-bottom: 20px;
+    outline: none !important;
+    box-shadow: none !important;
+}

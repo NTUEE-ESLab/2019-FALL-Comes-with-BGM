@@ -1,0 +1,21 @@
+.NameToolTip {
+	background-color: #ffffff;
+	color: #333333;
+	text-align: left;
+}
+
+.NameToolTip_Border  {
+	border: solid 1px #4f4f4f !important;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+
+.__react_component_tooltip.type-light.border.place-bottom {
+	border: solid 1px #4f4f4f !important;
+}
+
+.__react_component_tooltip.type-light.border.place-top {
+	border: solid 1px #4f4f4f !important;
+}

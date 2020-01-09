@@ -1,0 +1,28 @@
+.toastmodal {
+	border-radius: 10px;
+    background-color: #ffffff;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+    opacity: 0.9;
+}
+
+.modal_logo {
+	margin-bottom: 10px;
+}
+
+.success_text {
+	font-weight: 600;
+}
+
+.info_text_border {
+	border: 0 none !important;
+}
+
+.info_text {
+	margin-left: auto;
+	margin-right: auto;
+}
