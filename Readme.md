@@ -1,7 +1,7 @@
 # NTU ESLab 2019 FALL Comes with BGM
 
 ### 1. Motivation
-	Smart home applications thrived up due to the prevalent of IoT and smartphones. Their functions might be different but all with a view to either save energy and money or make human's life more conveneient. It happened to everyone that we leave our home without turning the lights and appliances off. Therefore, we came up with the idea to detect where the users are and hence automatically turn on/off home appliances using STM32 and Rpi. 
+  Smart home applications thrived up due to the prevalent of IoT and smartphones. Their functions might be different but all with a view to either save energy and money or make human's life more conveneient. It happened to everyone that we leave our home without turning the lights and appliances off. Therefore, we came up with the idea to detect where the users are and hence automatically turn on/off home appliances using STM32 and Rpi. 
 ### 2. Enviornment & Depedency
 - STM32
 	- Mbed-os 5.15.0
