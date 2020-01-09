@@ -8,26 +8,3 @@ WebServer/backend/token_storage
 WebServer/backend/data/new_user_info.json
 # dependencies
 WebServer/node_modules
-WebServer/.pnp
-.pnp.js
-
-# testing
-WebServer/coverage
-
-# production
-WebServer/build
-wireframe.pdf
-
-# misc
-WebServer/.DS_Store
-WebServer/.env.local
-WebServer/.env.development.local
-WebServer/.env.test.local
-WebServer/.env.production.local
-WebServer/.vscode
-WebServer/app.cpython-36.pyc
-WebServer/yarn.lock
-WebServer/__pycache__*
-WebServer/npm-debug.log*
-WebServer/yarn-debug.log*
-WebServer/yarn-error.log*
